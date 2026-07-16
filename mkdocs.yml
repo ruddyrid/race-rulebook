@@ -16,15 +16,19 @@ theme:
     - content.code.copy
     - content.tabs.link
   palette:
+    # Light Mode matching the website branding
     - scheme: default
-      primary: indigo
-      accent: orange
+      media: "(prefers-color-scheme: light)"
+      primary: blue
+      accent: red
       toggle:
         icon: material/weather-night
         name: Dark mode
+    # Dark Mode alternative
     - scheme: slate
-      primary: indigo
-      accent: orange
+      media: "(prefers-color-scheme: dark)"
+      primary: blue
+      accent: red
       toggle:
         icon: material/weather-sunny
         name: Light mode
@@ -33,16 +37,16 @@ nav:
   - Home: index.md
   - Quick Reference: quick-reference.md
   - Rules:
-    - Overview: rules/index.md
-    - Safety: rules/safety.md
-    - Vehicle Classes: rules/classes.md
-    - Technical Specifications: rules/technical.md
-    - Race Procedures: rules/procedures.md
-    - Penalties & Protests: rules/penalties.md
+      - Overview: rules/index.md
+      - Safety: rules/safety.md
+      - Vehicle Classes: rules/classes.md
+      - Technical Specifications: rules/technical.md
+      - Race Procedures: rules/procedures.md
+      - Penalties & Protests: rules/penalties.md
   - Appendices:
-    - Diagrams & Forms: appendices/index.md
-    - Glossary: appendices/glossary.md
-    - Changelog: changelog.md
+      - Diagrams & Forms: appendices/index.md
+      - Glossary: appendices/glossary.md
+  - Changelog: changelog.md
 
 plugins:
   - search
@@ -56,3 +60,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
+
+extra_css:
+  - css/custom.css

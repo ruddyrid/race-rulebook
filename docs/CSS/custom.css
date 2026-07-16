@@ -1,0 +1,10 @@
+/* Matches the tan body background from your website */
+:root, [data-md-color-scheme="light"] {
+  --md-background-color: #FAF6E9;
+  --md-typeset-color: #222222;
+}
+
+/* Enhances contrast for headers on the tan background */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  color: #111111;
+}
