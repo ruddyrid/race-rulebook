@@ -1,10 +1,29 @@
-/* Matches the tan body background from your website */
 :root, [data-md-color-scheme="light"] {
+  /* Header Light Teal */
+  --md-primary-fg-color: #72B2C8;
+  --md-primary-fg-color--dark: #5892A5;
+  
+  /* Accent Red for Links/Toggles */
+  --md-accent-fg-color: #E24626;
+
+  /* Tan Page Body Background & Charcoal Text */
   --md-background-color: #FAF6E9;
-  --md-typeset-color: #222222;
+  --md-typeset-color: #262626;
 }
 
-/* Enhances contrast for headers on the tan background */
-.md-typeset h1, .md-typeset h2, .md-typeset h3 {
-  color: #111111;
+/* Make headers dark charcoal and titles deep red */
+.md-typeset h1 {
+  color: #121D24 !important;
+  text-transform: uppercase;
+}
+.md-typeset h2, .md-typeset h3 {
+  color: #E24626 !important;
+}
+
+/* Match the deep navy/charcoal footer layout */
+.md-footer {
+  background-color: #1A222D !important;
+}
+.md-footer__link, .md-footer__meta {
+  background-color: #131A22 !important;
 }

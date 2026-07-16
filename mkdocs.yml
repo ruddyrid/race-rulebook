@@ -19,15 +19,15 @@ theme:
     # Light Mode matching the website branding
     - scheme: default
       media: "(prefers-color-scheme: light)"
-      primary: blue
-      accent: red
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: Dark mode
     # Dark Mode alternative
     - scheme: slate
       media: "(prefers-color-scheme: dark)"
-      primary: blue
+      primary: black
       accent: red
       toggle:
         icon: material/weather-sunny
