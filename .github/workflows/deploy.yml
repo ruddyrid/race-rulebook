@@ -5,6 +5,11 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -17,6 +22,8 @@ jobs:
         with:
           python-version: '3.x'
 
-      - run: pip install mkdocs mkdocs-material pymdown-extensions
+      - name: Install dependencies
+        run: pip install mkdocs mkdocs-material pymdown-extensions
 
-      - run: mkdocs gh-deploy --force
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
