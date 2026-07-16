@@ -1,0 +1,58 @@
+site_name: Your Racing Series Rulebook
+site_description: Official Competition Rules and Technical Regulations
+repo_name: race-rulebook
+repo_url: https://github.com/YourUsername/race-rulebook
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.instant
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+nav:
+  - Home: index.md
+  - Quick Reference: quick-reference.md
+  - Rules:
+    - Overview: rules/index.md
+    - Safety: rules/safety.md
+    - Vehicle Classes: rules/classes.md
+    - Technical Specifications: rules/technical.md
+    - Race Procedures: rules/procedures.md
+    - Penalties & Protests: rules/penalties.md
+  - Appendices:
+    - Diagrams & Forms: appendices/index.md
+    - Glossary: appendices/glossary.md
+    - Changelog: changelog.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
