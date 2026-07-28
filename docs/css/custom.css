@@ -1,0 +1,86 @@
+/* =========================================
+   Race Rulebook – Maximum Override
+   ========================================= */
+
+/* Force background everywhere */
+html, body, .md-main, .md-main__inner, .md-content, .md-content__inner, .md-typeset {
+  background-color: #FBF6EC !important;
+  color: #1A1F2E !important;
+}
+
+/* Force white header */
+.md-header,
+.md-header--shadow,
+header.md-header,
+.md-header__inner {
+  background-color: #FFFFFF !important;
+  background: #FFFFFF !important;
+  color: #1A1F2E !important;
+  border-bottom: 3px solid #1A1F2E !important;
+  box-shadow: none !important;
+}
+
+.md-header * {
+  color: #1A1F2E !important;
+}
+
+.md-header__button:hover,
+.md-header .md-source:hover {
+  color: #E63A2E !important;
+}
+
+/* Tabs */
+.md-tabs {
+  background-color: #FFFFFF !important;
+  border-bottom: 3px solid #1A1F2E !important;
+}
+
+.md-tabs__link {
+  color: #1A1F2E !important;
+}
+
+.md-tabs__link--active,
+.md-tabs__link:hover {
+  color: #E63A2E !important;
+}
+
+/* Headings */
+.md-typeset h1 {
+  color: #1A1F2E !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+}
+
+.md-typeset h2,
+.md-typeset h3 {
+  color: #E63A2E !important;
+  font-weight: 700 !important;
+}
+
+/* Links */
+.md-typeset a {
+  color: #E63A2E !important;
+}
+
+.md-typeset a:hover {
+  color: #F5A524 !important;
+}
+
+/* Sidebar */
+.md-nav__link {
+  color: #1A1F2E !important;
+}
+
+.md-nav__link--active,
+.md-nav__link:hover {
+  color: #E63A2E !important;
+}
+
+/* Search box */
+.md-search__form {
+  background-color: #EFE5D2 !important;
+}
+
+.md-search__input {
+  color: #1A1F2E !important;
+}
