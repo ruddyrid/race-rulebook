@@ -1,7 +1,5 @@
-site_name: Your Racing Series Rulebook
-site_description: Official Competition Rules and Technical Regulations
-repo_name: race-rulebook
-repo_url: https://github.com/ruddyrid/race-rulebook
+site_name: FRed Lobster 100 Rulebook
+site_description: Official Competition Rules and Technical Regulationsrepo_url: https://github.com/ruddyrid/race-rulebook
 
 theme:
   name: material
