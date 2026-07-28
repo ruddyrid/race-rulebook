@@ -119,3 +119,16 @@ header.md-header,
     text-decoration: underline;
   }
 }
+
+/* Primary button style */
+.md-typeset .md-button--primary {
+  background-color: #E63A2E !important;
+  border-color: #E63A2E !important;
+  color: #FFFFFF !important;
+}
+
+.md-typeset .md-button--primary:hover {
+  background-color: #F5A524 !important;
+  border-color: #F5A524 !important;
+  color: #1A1F2E !important;
+}

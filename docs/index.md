@@ -5,6 +5,14 @@ Official competition rules and technical regulations for the FRed Lobster 100.
 !!! warning "Enter at Your Own Risk"
     The idea behind this race is not one of the smartest we've had. Whether you're racing or watching, you're doing so at your own risk.
 
+## Printable Version
+
+[**📄 Download / Print Full Rulebook (PDF)**](print_page/){ .md-button .md-button--primary }
+
+*Opens a single page of the entire rulebook. Use your browser’s Print → Save as PDF and select Letter paper size.*
+
+---
+
 ## Start Here
 
 - **[Quick Reference](quick-reference.md)** — One-page summary of the most important rules
