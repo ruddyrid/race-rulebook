@@ -1,7 +1,7 @@
 site_name: Your Racing Series Rulebook
 site_description: Official Competition Rules and Technical Regulations
 repo_name: race-rulebook
-repo_url: https://github.com/YourUsername/race-rulebook
+repo_url: https://github.com/ruddyrid/race-rulebook
 
 theme:
   name: material
@@ -16,7 +16,7 @@ theme:
     - content.code.copy
     - content.tabs.link
   palette:
-    # Light Mode matching the website branding
+    # Light Mode (matches your site branding)
     - scheme: default
       media: "(prefers-color-scheme: light)"
       primary: custom
@@ -24,14 +24,17 @@ theme:
       toggle:
         icon: material/weather-night
         name: Dark mode
-    # Dark Mode alternative
+    # Dark Mode
     - scheme: slate
       media: "(prefers-color-scheme: dark)"
-      primary: black
-      accent: red
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: Light mode
+  font:
+    text: Hanken Grotesk
+    code: Spline Sans Mono
 
 nav:
   - Home: index.md

@@ -1,29 +1,135 @@
-:root, [data-md-color-scheme="light"] {
-  /* Header Light Teal */
-  --md-primary-fg-color: #72B2C8;
-  --md-primary-fg-color--dark: #5892A5;
-  
-  /* Accent Red for Links/Toggles */
-  --md-accent-fg-color: #E24626;
+/* =========================================
+   Race Rulebook – Closer Fred Lobster Match
+   ========================================= */
 
-  /* Tan Page Body Background & Charcoal Text */
-  --md-background-color: #FAF6E9;
-  --md-typeset-color: #262626;
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #1A1F2E !important;
+  --md-primary-fg-color--light: #3A3D4A !important;
+  --md-primary-fg-color--dark:  #0F1218 !important;
+
+  --md-accent-fg-color:         #E63A2E !important;
+  --md-accent-fg-color--transparent: #E63A2E1A !important;
+
+  --md-default-bg-color:        #FBF6EC !important;
+  --md-default-bg-color--light: #FBF6EC !important;
+  --md-default-bg-color--lighter: #EFE5D2 !important;
+  --md-default-bg-color--lightest: #EFE5D2 !important;
+
+  --md-default-fg-color:        #1A1F2E !important;
+  --md-default-fg-color--light: #3A3D4A !important;
+  --md-default-fg-color--lighter: #5A5D6A !important;
+  --md-default-fg-color--lightest: #8A8D9A !important;
+
+  --md-typeset-a-color:         #E63A2E !important;
+
+  --md-code-bg-color:           #EFE5D2 !important;
+  --md-code-fg-color:           #1A1F2E !important;
 }
 
-/* Make headers dark charcoal and titles deep red */
+/* Dark mode (keep functional) */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #1A1F2E !important;
+  --md-accent-fg-color:         #FF4A3E !important;
+  --md-typeset-a-color:         #FF4A3E !important;
+  --md-default-bg-color:        #0F1218 !important;
+  --md-default-fg-color:        #FBF6EC !important;
+}
+
+/* ========== HEADER (White like reference) ========== */
+.md-header {
+  background-color: #FFFFFF !important;
+  color: #1A1F2E !important;
+  border-bottom: 3px solid #1A1F2E !important;
+  box-shadow: none !important;
+}
+
+.md-header__title,
+.md-header__button,
+.md-header .md-source,
+.md-header .md-source__repository {
+  color: #1A1F2E !important;
+}
+
+.md-header__button:hover,
+.md-header .md-source:hover {
+  color: #E63A2E !important;
+}
+
+/* Tabs under header */
+.md-tabs {
+  background-color: #FFFFFF !important;
+  border-bottom: 3px solid #1A1F2E !important;
+}
+
+.md-tabs__link {
+  color: #1A1F2E !important;
+  font-weight: 500 !important;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: #E63A2E !important;
+  border-bottom-color: #E63A2E !important;
+}
+
+/* ========== PAGE BACKGROUND ========== */
+.md-main,
+.md-content,
+body,
+.md-main__inner {
+  background-color: #FBF6EC !important;
+}
+
+/* ========== HEADINGS ========== */
 .md-typeset h1 {
-  color: #121D24 !important;
-  text-transform: uppercase;
-}
-.md-typeset h2, .md-typeset h3 {
-  color: #E24626 !important;
+  color: #1A1F2E !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.01em !important;
+  font-size: 2.4rem !important;
 }
 
-/* Match the deep navy/charcoal footer layout */
-.md-footer {
-  background-color: #1A222D !important;
+.md-typeset h2 {
+  color: #E63A2E !important;          /* Red section headings */
+  font-weight: 700 !important;
+  font-size: 1.45rem !important;
+  margin-top: 1.8em !important;
 }
-.md-footer__link, .md-footer__meta {
-  background-color: #131A22 !important;
+
+.md-typeset h3 {
+  color: #E63A2E !important;
+  font-weight: 600 !important;
+}
+
+/* ========== LINKS ========== */
+.md-typeset a {
+  color: #E63A2E !important;
+}
+
+.md-typeset a:hover {
+  color: #F5A524 !important;
+}
+
+/* ========== SIDEBAR / NAV ========== */
+.md-nav__link {
+  color: #1A1F2E !important;
+}
+
+.md-nav__link:hover,
+.md-nav__link--active {
+  color: #E63A2E !important;
+}
+
+.md-nav__title {
+  color: #1A1F2E !important;
+}
+
+/* ========== SEARCH ========== */
+.md-search__form {
+  background-color: #EFE5D2 !important;
+}
+
+.md-search__input {
+  color: #1A1F2E !important;
 }

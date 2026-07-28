@@ -1,17 +1,31 @@
-# Welcome to MkDocs
+# FRed Lobster 100 Rulebook
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Official competition rules and technical regulations for the FRed Lobster 100.
 
-## Commands
+!!! warning "Enter at Your Own Risk"
+    The idea behind this race is not one of the smartest we've had. Whether you're racing or watching, you're doing so at your own risk.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Start Here
 
-## Project layout
+- **[Quick Reference](quick-reference.md)** — One-page summary of the most important rules
+- **[Race Rules Overview](rules/index.md)** — Full breakdown of the rules
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Rule Sections
+
+| Section | What's Covered |
+|---------|----------------|
+| [Safety](rules/safety.md) | Flags, equipment, pit rules, recommendations |
+| [Vehicle Classes](rules/classes.md) | Allowed cars, tires, basic requirements |
+| [Technical Specifications](rules/technical.md) | Bumpers, radiator protectors, transponders |
+| [Race Procedures](rules/procedures.md) | Teams, drivers, registration, RACEceiver |
+| [Penalties & Claims](rules/penalties.md) | Claim process and amounts |
+
+## Need Gear?
+
+- [RACEceiver on Amazon](https://amzn.to/4miPvXz)
+- [Extra Batteries](https://amzn.to/4dR7TEI)
+- Also available at [Day Motorsports in Tyler](https://www.daymotorsports.com/)
+
+---
+
+*Rules are subject to change. Always check the latest version before race weekend.*
