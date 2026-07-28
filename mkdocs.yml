@@ -52,7 +52,12 @@ nav:
 
 plugins:
   - search
-
+  - print-site:
+      add_to_navigation: true
+      print_page_title: "Printable Rulebook"
+      add_table_of_contents: true
+      toc_title: "Table of Contents"
+      
 markdown_extensions:
   - toc:
       permalink: true

@@ -84,3 +84,38 @@ header.md-header,
 .md-search__input {
   color: #1A1F2E !important;
 }
+
+
+/* ========== PRINT STYLES (Letter paper) ========== */
+@media print {
+  @page {
+    size: letter;
+    margin: 0.6in;
+  }
+
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer,
+  .md-search,
+  .md-header__button {
+    display: none !important;
+  }
+
+  body, .md-main, .md-content {
+    background: white !important;
+    color: black !important;
+  }
+
+  .md-typeset h1,
+  .md-typeset h2,
+  .md-typeset h3 {
+    color: black !important;
+    page-break-after: avoid;
+  }
+
+  a {
+    color: black !important;
+    text-decoration: underline;
+  }
+}
