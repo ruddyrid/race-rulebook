@@ -55,8 +55,11 @@ plugins:
   - print-site:
       add_to_navigation: true
       print_page_title: "Printable Rulebook"
+      print_page_basename: print_page
       add_table_of_contents: true
       toc_title: "Table of Contents"
+      enumerate_headings: true
+      add_cover_page: false
       
 markdown_extensions:
   - toc:
