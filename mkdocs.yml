@@ -4,10 +4,10 @@ repo_url: https://github.com/ruddyrid/race-rulebook
 
 theme:
   name: material
-    features:
+  features:
     - navigation.tabs
     - navigation.sections
-    - navigation.expand          # ← adds this
+    - navigation.expand
     - navigation.indexes
     - navigation.top
     - search.suggest
