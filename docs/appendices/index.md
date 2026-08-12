@@ -37,3 +37,28 @@ Official competition rules and technical regulations for the FRed Lobster 100.
 ---
 
 *Rules are subject to change. Always check the latest version before race weekend.*
+
+
+## Full Rules
+
+This page includes the full rule sections from the separate rule documents below. Any change made to the individual rule files will appear here the next time the site is built.
+
+![[rules/safety.md]]
+
+---
+
+![[rules/classes.md]]
+
+---
+
+![[rules/technical.md]]
+
+---
+
+![[rules/procedures.md]]
+
+---
+
+![[rules/penalties.md]]
+
+---
