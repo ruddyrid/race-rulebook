@@ -22,5 +22,25 @@ All teams must have four individual drivers for the A Main. The idea behind this
 | RACEceiver               | Required and must respond to communications  |
 | Registration             | $100 by deadline, $50 late fee after         |
 
-!!! note "Subject to Change"
-    These rules can be updated. Always check the latest version before race weekend.
+!!! note "Live Combined Rulebook"
+    This page automatically includes the full rule sections from the individual files below. Any change made to `safety.md`, `classes.md`, `technical.md`, `procedures.md`, or `penalties.md` will appear here the next time the site is built.
+
+---
+
+![[safety.md]]
+
+---
+
+![[classes.md]]
+
+---
+
+![[technical.md]]
+
+---
+
+![[procedures.md]]
+
+---
+
+![[penalties.md]]
