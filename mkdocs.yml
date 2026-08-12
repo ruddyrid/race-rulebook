@@ -70,6 +70,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.snippets
+  - markdown_include.include
   - attr_list
 
 
