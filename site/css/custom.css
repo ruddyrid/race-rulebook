@@ -1,29 +1,18 @@
 /* =========================================
-   Race Rulebook – Forced Brand Colors
+   Race Rulebook – Maximum Override
    ========================================= */
 
-:root,
-[data-md-color-scheme="default"] {
-  --md-primary-fg-color: #1A1F2E !important;
-  --md-primary-fg-color--light: #3A3D4A !important;
-  --md-primary-fg-color--dark: #0F1218 !important;
-  --md-accent-fg-color: #E63A2E !important;
-  --md-accent-fg-color--transparent: #E63A2E1A !important;
-  --md-default-bg-color: #FBF6EC !important;
-  --md-default-bg-color--light: #FBF6EC !important;
-  --md-default-bg-color--lighter: #EFE5D2 !important;
-  --md-default-bg-color--lightest: #EFE5D2 !important;
-  --md-default-fg-color: #1A1F2E !important;
-  --md-default-fg-color--light: #3A3D4A !important;
-  --md-typeset-a-color: #E63A2E !important;
-  --md-code-bg-color: #EFE5D2 !important;
-  --md-code-fg-color: #1A1F2E !important;
+/* Force background everywhere */
+html, body, .md-main, .md-main__inner, .md-content, .md-content__inner, .md-typeset {
+  background-color: #FBF6EC !important;
+  color: #1A1F2E !important;
 }
 
 /* Force white header */
 .md-header,
 .md-header--shadow,
-header.md-header {
+header.md-header,
+.md-header__inner {
   background-color: #FFFFFF !important;
   background: #FFFFFF !important;
   color: #1A1F2E !important;
@@ -31,12 +20,7 @@ header.md-header {
   box-shadow: none !important;
 }
 
-.md-header__inner,
-.md-header__title,
-.md-header__button,
-.md-header .md-source,
-.md-header .md-source__repository,
-.md-header__topic {
+.md-header * {
   color: #1A1F2E !important;
 }
 
@@ -45,7 +29,7 @@ header.md-header {
   color: #E63A2E !important;
 }
 
-/* Force tabs */
+/* Tabs */
 .md-tabs {
   background-color: #FFFFFF !important;
   border-bottom: 3px solid #1A1F2E !important;
@@ -55,20 +39,9 @@ header.md-header {
   color: #1A1F2E !important;
 }
 
-.md-tabs__link:hover,
 .md-tabs__link--active,
-.md-tabs__item--active .md-tabs__link {
+.md-tabs__link:hover {
   color: #E63A2E !important;
-}
-
-/* Force page background */
-body,
-.md-main,
-.md-main__inner,
-.md-content,
-.md-content__inner,
-.md-typeset {
-  background-color: #FBF6EC !important;
 }
 
 /* Headings */
@@ -98,16 +71,64 @@ body,
   color: #1A1F2E !important;
 }
 
-.md-nav__link:hover,
-.md-nav__link--active {
+.md-nav__link--active,
+.md-nav__link:hover {
   color: #E63A2E !important;
 }
 
-/* Search */
+/* Search box */
 .md-search__form {
   background-color: #EFE5D2 !important;
 }
 
 .md-search__input {
+  color: #1A1F2E !important;
+}
+
+
+/* ========== PRINT STYLES (Letter paper) ========== */
+@media print {
+  @page {
+    size: letter;
+    margin: 0.6in;
+  }
+
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer,
+  .md-search,
+  .md-header__button {
+    display: none !important;
+  }
+
+  body, .md-main, .md-content {
+    background: white !important;
+    color: black !important;
+  }
+
+  .md-typeset h1,
+  .md-typeset h2,
+  .md-typeset h3 {
+    color: black !important;
+    page-break-after: avoid;
+  }
+
+  a {
+    color: black !important;
+    text-decoration: underline;
+  }
+}
+
+/* Primary button style */
+.md-typeset .md-button--primary {
+  background-color: #E63A2E !important;
+  border-color: #E63A2E !important;
+  color: #FFFFFF !important;
+}
+
+.md-typeset .md-button--primary:hover {
+  background-color: #F5A524 !important;
+  border-color: #F5A524 !important;
   color: #1A1F2E !important;
 }
