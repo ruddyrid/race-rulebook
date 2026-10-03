@@ -7,7 +7,7 @@ Official competition rules and technical regulations for the FRed Lobster 100.
 
 ## Printable Version
 
-[**📄 Download / Print Full Rulebook**](/race-rulebook/print_page/){ .md-button .md-button--primary }
+[**📄 Download / Print Full Rulebook**](https://ruddyrid.github.io/race-rulebook/print_page/){ .md-button .md-button--primary }
 
 *Opens a single combined page of the entire rulebook. Use your browser’s **Print → Save as PDF** and choose **Letter** paper size.*
 
