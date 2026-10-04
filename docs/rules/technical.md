@@ -19,10 +19,18 @@ Front and rear bumpers are limited to one of the following:
 
 ### Mounting & Attachment Constraints
 
-* **Main supports:** Fabricated bumpers must attach to the vehicle frame or chassis using a maximum of two (2) main mounting pillars or posts.
+* **Main supports (Figure 1):** Fabricated bumpers must attach to the vehicle frame or chassis using a maximum of two (2) main mounting pillars or posts.
 * **No chassis reinforcement:** The bumper assembly must function strictly as a bumper structure and cannot be used to brace, reinforce, or tie together the vehicle frame, unibody, engine mounts, or other components.
-* **Side/flank supports:** Additional support braces extending to the outer flanks or turned ends are mandatory on side flanks. Each flank must include a minimum of one (1) reinforcement, and supports may connect to either the main bumper structure/posts or the vehicle frame/chassis.
+* **Side/flank supports (Figure 2):** Additional support braces extending to the outer flanks or turned ends are mandatory on side flanks. Each flank must include a minimum of one (1) reinforcement, and supports may connect to either the main bumper structure/posts or the vehicle frame/chassis.
 * *Note: Side/flank supports are not considered additional chassis reinforcements. They are intended to prevent the bumper ends from flaring out or protruding in the event of an impact.*
+
+![Diagram showing two main bumper supports attaching a fabricated bumper to the vehicle chassis.](../images/technical-bumper-main-supports.jpg)
+
+*Figure 1. Two main bumper support pillars or posts attaching the bumper to the chassis.*
+
+![Diagram showing side/flank support braces reinforcing the outer ends of a fabricated bumper.](../images/technical-bumper-flank-supports.jpg)
+
+*Figure 2. Side/flank supports reinforcing the outer bumper ends.*
 
 !!! warning "No Sharp Edges"
     Tuck and round anything you add that isn’t stock. Don’t have anything sticking out that could puncture a tire or pierce a panel. Bumpers must follow the contour of the car and not extend past the car’s width. If the safety inspector doesn’t like it, be prepared to cut it.
