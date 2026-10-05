@@ -4,6 +4,9 @@ Record of updates to the official rulebook.
 
 ## 2026 Season
 
+### October 5, 2026
+- Replaced the side/flank support diagram on the Technical Specifications page
+
 ### October 3, 2026
 - Clarified bumper rules for stock bumper preference and permitted fabrication options
 - Added clearer mounting and side/flank support requirements

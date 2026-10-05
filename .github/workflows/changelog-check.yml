@@ -1,0 +1,30 @@
+name: Changelog check
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize, ready_for_review]
+
+permissions:
+  pull-requests: read
+
+jobs:
+  require-changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check that the changelog was updated
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const files = await github.paginate(
+              github.rest.pulls.listFiles,
+              {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+              }
+            );
+            if (!files.some((file) => file.filename === "docs/changelog.md")) {
+              core.setFailed(
+                "Update docs/changelog.md with this pull request's changes."
+              );
+            }
