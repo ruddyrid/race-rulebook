@@ -15,14 +15,15 @@ This page covers bumpers, radiator protectors, and transponders.
 Front and rear bumpers are limited to one of the following:
 
 1. Original stock bumpers, front and rear.
-2. A one-piece fabricated bumper no larger than **1.5″ schedule-40 pipe**, or **2″ × .120 square tubing**.
+2. A one-piece fabricated bumper constructed of **only one (1) single beam/bar**, no larger than **1.5″ schedule-40 pipe** (2.0" OD), or **2″ × .120 square tubing**. Multiple horizontal bars or stacked multi-beam structures are not permitted.
 
 ### Mounting & Attachment Constraints
 
 * **Main supports (Figure 1):** Fabricated bumpers must attach to the vehicle frame or chassis using a maximum of two (2) main mounting pillars or posts.
 * **No chassis reinforcement:** The bumper assembly must function strictly as a bumper structure and cannot be used to brace, reinforce, or tie together the vehicle frame, unibody, engine mounts, or other components.
-* **Side/flank supports (Figure 2):** Additional support braces extending to the outer flanks or turned ends are mandatory on side flanks. Each flank must include a minimum of one (1) reinforcement, and supports may connect to either the main bumper structure/posts or the vehicle frame/chassis.
+* **Side/flank supports (Figure 2):** Additional support braces extending to the outer flanks or turned ends are mandatory on side flanks for fabricated bumpers. Each flank must include a minimum of one (1) reinforcement, and supports may connect to either the main bumper structure/posts or the vehicle frame/chassis.
 * *Note: Side/flank supports are not considered additional chassis reinforcements. They are intended to prevent the bumper ends from flaring out or protruding in the event of an impact.*
+* *Note on Stock Bumpers:* Side flanks or turned ends may optionally be added to an original/stock bumper. If added, they must follow the same criteria as fabricated flank supports, limited to **only one (1) beam, bar, or tube per side**.
 
 ![Diagram showing two main bumper supports attaching a fabricated bumper to the vehicle chassis.](../images/technical-bumper-main-supports.jpg)
 
