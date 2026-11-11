@@ -1,6 +1,3 @@
 # Backend runtime artifacts (never committed, never published)
-backend/drafts/
-backend/__pycache__/
 __pycache__/
 *.pyc
-backend/*.log
