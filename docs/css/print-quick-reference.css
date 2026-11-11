@@ -1,0 +1,104 @@
+/* =========================================
+   Quick Reference — one-page print styling
+   Scoped to the page whose <h1> carries .qr-print
+   (docs/quick-reference.md). Nothing here affects
+   on-screen rendering or any other page.
+   ========================================= */
+
+@media print {
+  @page {
+    size: letter;
+    margin: 0.45in 0.5in;
+  }
+
+  /* Hide every piece of site chrome on the printed quick reference */
+  body:has(h1.qr-print) .md-header,
+  body:has(h1.qr-print) .md-tabs,
+  body:has(h1.qr-print) .md-sidebar,
+  body:has(h1.qr-print) .md-nav,
+  body:has(h1.qr-print) .md-footer,
+  body:has(h1.qr-print) .md-search,
+  body:has(h1.qr-print) .md-top,
+  body:has(h1.qr-print) .md-source,
+  body:has(h1.qr-print) .md-content__button,
+  body:has(h1.qr-print) .md-header__button,
+  body:has(h1.qr-print) .md-skip,
+  body:has(h1.qr-print) .md-dialog {
+    display: none !important;
+  }
+
+  /* Flatten the layout so the text uses the full page */
+  body:has(h1.qr-print),
+  body:has(h1.qr-print) .md-main,
+  body:has(h1.qr-print) .md-main__inner,
+  body:has(h1.qr-print) .md-content,
+  body:has(h1.qr-print) .md-content__inner {
+    background: #fff !important;
+    color: #000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: none !important;
+    width: auto !important;
+    display: block !important;
+  }
+
+  body:has(h1.qr-print) .md-typeset {
+    font-size: 10.2pt !important;
+    line-height: 1.34 !important;
+    color: #000 !important;
+  }
+
+  body:has(h1.qr-print) .md-typeset h1 {
+    font-size: 17pt !important;
+    line-height: 1.1 !important;
+    margin: 0 0 0.25rem !important;
+    padding: 0 !important;
+    border: 0 !important;
+    page-break-after: avoid;
+  }
+
+  body:has(h1.qr-print) .md-typeset h2 {
+    font-size: 11.4pt !important;
+    line-height: 1.15 !important;
+    margin: 0.42rem 0 0.14rem !important;
+    color: #000 !important;
+    page-break-after: avoid;
+  }
+
+  body:has(h1.qr-print) .md-typeset p,
+  body:has(h1.qr-print) .md-typeset ul,
+  body:has(h1.qr-print) .md-typeset ol {
+    margin: 0.08rem 0 !important;
+    padding-left: 0.9rem !important;
+  }
+
+  body:has(h1.qr-print) .md-typeset li {
+    margin: 0.02rem 0 !important;
+  }
+
+  body:has(h1.qr-print) .md-typeset hr {
+    margin: 0.30rem 0 !important;
+    border: 0;
+    border-top: 0.5pt solid #999 !important;
+  }
+
+  /* Compact tables, no splitting across pages */
+  body:has(h1.qr-print) .md-typeset table {
+    font-size: 9.4pt !important;
+    margin: 0.14rem 0 !important;
+    page-break-inside: avoid;
+  }
+
+  body:has(h1.qr-print) .md-typeset th,
+  body:has(h1.qr-print) .md-typeset td {
+    padding: 1pt 4pt !important;
+    border-color: #999 !important;
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  body:has(h1.qr-print) .md-typeset a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+}

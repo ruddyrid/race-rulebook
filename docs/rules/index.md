@@ -27,20 +27,20 @@ All teams must have four individual drivers for the A Main. The idea behind this
 
 ---
 
-![[safety.md]]
+{% include-markdown "rules/safety.md" %}
 
 ---
 
-![[classes.md]]
+{% include-markdown "rules/classes.md" %}
 
 ---
 
-![[technical.md]]
+{% include-markdown "rules/technical.md" %}
 
 ---
 
-![[procedures.md]]
+{% include-markdown "rules/procedures.md" %}
 
 ---
 
-![[penalties.md]]
+{% include-markdown "rules/penalties.md" %}

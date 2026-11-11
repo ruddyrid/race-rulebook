@@ -2,6 +2,8 @@ site_name: "FRed Lobster 100 Rulebook"
 site_description: "Official Competition Rules and Technical Regulations"
 repo_url: https://github.com/ruddyrid/race-rulebook
 
+copyright: "Fred Lobster Race Rules 2027 &nbsp;·&nbsp; v1.0 (updated November 2026)"
+
 theme:
   name: material
   features:
@@ -52,6 +54,8 @@ nav:
 
 plugins:
   - search
+  - include-markdown:
+      rewrite_relative_urls: true
   - print-site:
       add_to_navigation: true
       print_page_title: "Printable Rulebook"
@@ -77,3 +81,4 @@ markdown_extensions:
 
 extra_css:
   - css/custom.css
+  - css/print-quick-reference.css
