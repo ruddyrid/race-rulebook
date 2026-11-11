@@ -2,7 +2,7 @@ site_name: "FRed Lobster 100 Rulebook"
 site_description: "Official Competition Rules and Technical Regulations"
 repo_url: https://github.com/ruddyrid/race-rulebook
 
-copyright: "Fred Lobster Race Rules 2027 &nbsp;·&nbsp; v1.0 (updated November 2026)"
+copyright: "Fred Lobster Race Rules 2027 &nbsp;·&nbsp; v1.1 (updated 11 November 2026)"
 
 theme:
   name: material

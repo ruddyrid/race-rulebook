@@ -1,6 +1,7 @@
 # Quick Reference {: .qr-print }
 
 One-page summary of the most important rules. Print this or keep it on your phone.
+<!-- phase 2 publish/rollback test; removed by rollback -->
 
 ---
 
