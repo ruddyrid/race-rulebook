@@ -1,4 +1,0 @@
-# Backend-only dependencies (kept out of the site's requirements.txt so the
-# GitHub Actions build stays lean — CI only needs the MkDocs toolchain).
-fastapi==0.162.4
-uvicorn[standard]==0.54.0
