@@ -4,6 +4,9 @@ Record of updates to the official rulebook.
 
 ## 2026 Season
 
+### 12 November 2026
+- Published v1.1: Home updated
+
 ### October 6, 2026
 - Clarified that fabricated bumpers are limited to one beam, including optional stock-bumper flanks
 
