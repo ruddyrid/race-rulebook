@@ -24,7 +24,7 @@ Official competition rules and technical regulations for the FRed Lobster 100.
 |---------|----------------|
 | [Safety](rules/safety.md) | Flags, equipment, pit rules, recommendations |
 | [Vehicle Classes](rules/classes.md) | Allowed cars, tires, basic requirements |
-| [Technical Specifications](rules/technical.md) | Bumpers, radiator protectors, transponders |
+| [Technical Specifications](rules/technical.md) | Bumpers, radiator protectors, transponders, anti-intrusion |
 | [Race Procedures](rules/procedures.md) | Teams, drivers, registration, RACEceiver |
 | [Penalties & Claims](rules/penalties.md) | Claim process and amounts |
 
